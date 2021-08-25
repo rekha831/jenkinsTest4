@@ -13,6 +13,7 @@ public class TestBase {
 	
 	public static WebDriver driver;
 	
+	
 	@BeforeMethod
 	public void setup() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
